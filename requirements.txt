@@ -1,0 +1,6 @@
+Flask==3.0.3
+requests==2.32.3
+python-nmap==0.7.1
+reportlab==4.4.10
+matplotlib==3.10.8
+Flask-Login==0.6.3

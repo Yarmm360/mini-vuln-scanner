@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Log in - MiniVuln Scanner{% endblock %}
+{% block body %}
+<div class="container narrow">
+  <h1>Log in</h1>
+
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      {% for m in messages %}<div class="flash">{{ m }}</div>{% endfor %}
+    {% endif %}
+  {% endwith %}
+
+  <form method="post">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" value="{{ username or '' }}" required autofocus>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Log in</button>
+  </form>
+
+  <p class="hint" style="margin-top:20px;">Don't have an account? <a href="{{ url_for('auth.register') }}" style="color:#38bdf8;">Sign up</a></p>
+</div>
+{% endblock %}
