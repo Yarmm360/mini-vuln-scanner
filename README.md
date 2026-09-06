@@ -40,7 +40,7 @@ like Nessus, at a scale appropriate for a class assignment:
 ## 3. Architecture
 
 ```
-nessus_clone/
+mini-vulnnn-scanner/
 ├── app.py            # Flask routes, scan orchestration
 ├── auth.py           # Registration / login / logout (Flask-Login)
 ├── database.py       # SQLite schema + user/scan persistence
