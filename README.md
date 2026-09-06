@@ -195,3 +195,6 @@ real product like Nessus:
 
 Built as a coursework project using Flask, nmap, and open public CVE data
 (NIST NVD). Intended for educational use in a controlled lab environment.
+
+developer: Yar Muhammad Mangi
+keywords: mimi-vuln-scanner, mini-vuln-scanner by yar muhammad, mini-vuln-scanner by Yar Muhammad Mangi
